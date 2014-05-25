@@ -9,3 +9,5 @@ export QT_IM_MODULE=uim
 export XIM=uim-xim
 export XMODIFIERS=@im=uim
 
+setopt IGNOREEOF
+
