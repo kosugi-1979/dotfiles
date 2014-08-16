@@ -9,5 +9,8 @@ export QT_IM_MODULE=uim
 export XIM=uim-xim
 export XMODIFIERS=@im=uim
 
+# pager
+export PAGER=less
+
 setopt IGNOREEOF
 
