@@ -2,6 +2,9 @@
 (global-set-key "\C-h" 'backward-delete-char)
 (global-set-key "\C-o" 'toggle-input-method)
 
+; no beep
+(setq visiblebell t)
+
 ; Package
 (require 'package)
 (package-initialize)
