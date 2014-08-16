@@ -13,3 +13,8 @@
 (require 'tc-setup)
 (setq tcode-help-with-real-keys t)
 
+; GDB
+(setq gdb-many-windows t)
+(add-hook 'gdb-mode-hook '(lambda () (gud-tooltip-mode t)))
+(setq gdb-use-separate-io-buffer t)
+
