@@ -23,3 +23,8 @@
 (add-hook 'gdb-mode-hook '(lambda () (gud-tooltip-mode t)))
 (setq gdb-use-separate-io-buffer t)
 
+; Markdown
+(autoload 'markdown-mode "markdown-mode"
+ "Major mode for editing Markdown files" t)i
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+
