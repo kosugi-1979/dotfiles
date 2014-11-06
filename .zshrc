@@ -1,3 +1,6 @@
+# prompt
+PROMPT="%n@%m[%~]%% "
+
 # history
 HISTFILE=~/.histfile
 HISTSIZE=1000
