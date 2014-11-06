@@ -28,3 +28,8 @@
  "Major mode for editing Markdown files" t)i
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 
+; CommonLisp
+(add-to-list 'load-path  "/usr/local/share/emacs/24.3/site-lisp/slime"
+                         "/usr/local/share/emacs/24.3/site-lisp/slime/contrib")
+(require 'slime)
+
